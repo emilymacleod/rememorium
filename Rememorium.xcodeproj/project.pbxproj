@@ -13,7 +13,8 @@
 		9B081B751B0A4E3A004F52EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B741B0A4E3A004F52EB /* Images.xcassets */; };
 		9B081B781B0A4E3A004F52EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B761B0A4E3A004F52EB /* LaunchScreen.xib */; };
 		9B081B841B0A4E3A004F52EB /* RememoriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B081B831B0A4E3A004F52EB /* RememoriumTests.swift */; };
-		9B081B901B0A5436004F52EB /* Portrait - 5 in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B8F1B0A5436004F52EB /* Portrait - 5 */; };
+		9B081B9A1B0A8E53004F52EB /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B991B0A8E53004F52EB /* AppIcon.appiconset */; };
+		9B081B9C1B0AA230004F52EB /* Screens in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B9B1B0AA230004F52EB /* Screens */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,8 @@
 		9B081B7D1B0A4E3A004F52EB /* RememoriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememoriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B081B821B0A4E3A004F52EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B081B831B0A4E3A004F52EB /* RememoriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememoriumTests.swift; sourceTree = "<group>"; };
-		9B081B8F1B0A5436004F52EB /* Portrait - 5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Portrait - 5"; path = "Images.xcassets/Portrait - 5"; sourceTree = "<group>"; };
+		9B081B991B0A8E53004F52EB /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = Images.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		9B081B9B1B0AA230004F52EB /* Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screens; path = /Users/emilymacleod/Desktop/Rememorium/Rememorium/Screens; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +84,9 @@
 				9B081B6D1B0A4E3A004F52EB /* AppDelegate.swift */,
 				9B081B6F1B0A4E3A004F52EB /* ViewController.swift */,
 				9B081B711B0A4E3A004F52EB /* Main.storyboard */,
-				9B081B8F1B0A5436004F52EB /* Portrait - 5 */,
+				9B081B9B1B0AA230004F52EB /* Screens */,
 				9B081B741B0A4E3A004F52EB /* Images.xcassets */,
+				9B081B991B0A8E53004F52EB /* AppIcon.appiconset */,
 				9B081B761B0A4E3A004F52EB /* LaunchScreen.xib */,
 				9B081B6B1B0A4E3A004F52EB /* Supporting Files */,
 			);
@@ -195,10 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B081B9A1B0A8E53004F52EB /* AppIcon.appiconset in Resources */,
 				9B081B731B0A4E3A004F52EB /* Main.storyboard in Resources */,
 				9B081B781B0A4E3A004F52EB /* LaunchScreen.xib in Resources */,
 				9B081B751B0A4E3A004F52EB /* Images.xcassets in Resources */,
-				9B081B901B0A5436004F52EB /* Portrait - 5 in Resources */,
+				9B081B9C1B0AA230004F52EB /* Screens in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
