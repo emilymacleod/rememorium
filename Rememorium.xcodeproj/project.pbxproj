@@ -10,11 +10,13 @@
 		9B081B6E1B0A4E3A004F52EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B081B6D1B0A4E3A004F52EB /* AppDelegate.swift */; };
 		9B081B701B0A4E3A004F52EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B081B6F1B0A4E3A004F52EB /* ViewController.swift */; };
 		9B081B731B0A4E3A004F52EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B711B0A4E3A004F52EB /* Main.storyboard */; };
-		9B081B751B0A4E3A004F52EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B741B0A4E3A004F52EB /* Images.xcassets */; };
 		9B081B781B0A4E3A004F52EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B761B0A4E3A004F52EB /* LaunchScreen.xib */; };
 		9B081B841B0A4E3A004F52EB /* RememoriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B081B831B0A4E3A004F52EB /* RememoriumTests.swift */; };
-		9B081B9A1B0A8E53004F52EB /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B991B0A8E53004F52EB /* AppIcon.appiconset */; };
-		9B081B9C1B0AA230004F52EB /* Screens in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B9B1B0AA230004F52EB /* Screens */; };
+		9B081B9E1B0AAA23004F52EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B081B9D1B0AAA23004F52EB /* Images.xcassets */; };
+		9B081BA61B0B71A6004F52EB /* Bitmap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B081BA21B0B71A6004F52EB /* Bitmap1.png */; };
+		9B081BA71B0B71A6004F52EB /* Bitmap2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B081BA31B0B71A6004F52EB /* Bitmap2.png */; };
+		9B081BA81B0B71A6004F52EB /* Bitmap3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B081BA41B0B71A6004F52EB /* Bitmap3.png */; };
+		9B081BA91B0B71A6004F52EB /* Bitmap4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B081BA51B0B71A6004F52EB /* Bitmap4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +35,15 @@
 		9B081B6D1B0A4E3A004F52EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B081B6F1B0A4E3A004F52EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B081B721B0A4E3A004F52EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B081B741B0A4E3A004F52EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B081B771B0A4E3A004F52EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B081B7D1B0A4E3A004F52EB /* RememoriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememoriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B081B821B0A4E3A004F52EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B081B831B0A4E3A004F52EB /* RememoriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememoriumTests.swift; sourceTree = "<group>"; };
-		9B081B991B0A8E53004F52EB /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = Images.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
-		9B081B9B1B0AA230004F52EB /* Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screens; path = /Users/emilymacleod/Desktop/Rememorium/Rememorium/Screens; sourceTree = "<absolute>"; };
+		9B081B9D1B0AAA23004F52EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B081BA21B0B71A6004F52EB /* Bitmap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap1.png; sourceTree = "<group>"; };
+		9B081BA31B0B71A6004F52EB /* Bitmap2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap2.png; sourceTree = "<group>"; };
+		9B081BA41B0B71A6004F52EB /* Bitmap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap3.png; sourceTree = "<group>"; };
+		9B081BA51B0B71A6004F52EB /* Bitmap4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +88,9 @@
 				9B081B6D1B0A4E3A004F52EB /* AppDelegate.swift */,
 				9B081B6F1B0A4E3A004F52EB /* ViewController.swift */,
 				9B081B711B0A4E3A004F52EB /* Main.storyboard */,
-				9B081B9B1B0AA230004F52EB /* Screens */,
-				9B081B741B0A4E3A004F52EB /* Images.xcassets */,
-				9B081B991B0A8E53004F52EB /* AppIcon.appiconset */,
 				9B081B761B0A4E3A004F52EB /* LaunchScreen.xib */,
+				9B081B9D1B0AAA23004F52EB /* Images.xcassets */,
+				9B081BA11B0B71A6004F52EB /* Screens */,
 				9B081B6B1B0A4E3A004F52EB /* Supporting Files */,
 			);
 			path = Rememorium;
@@ -116,6 +119,17 @@
 				9B081B821B0A4E3A004F52EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B081BA11B0B71A6004F52EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9B081BA21B0B71A6004F52EB /* Bitmap1.png */,
+				9B081BA31B0B71A6004F52EB /* Bitmap2.png */,
+				9B081BA41B0B71A6004F52EB /* Bitmap3.png */,
+				9B081BA51B0B71A6004F52EB /* Bitmap4.png */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B081B9A1B0A8E53004F52EB /* AppIcon.appiconset in Resources */,
+				9B081BA61B0B71A6004F52EB /* Bitmap1.png in Resources */,
+				9B081B9E1B0AAA23004F52EB /* Images.xcassets in Resources */,
+				9B081BA91B0B71A6004F52EB /* Bitmap4.png in Resources */,
+				9B081BA81B0B71A6004F52EB /* Bitmap3.png in Resources */,
 				9B081B731B0A4E3A004F52EB /* Main.storyboard in Resources */,
+				9B081BA71B0B71A6004F52EB /* Bitmap2.png in Resources */,
 				9B081B781B0A4E3A004F52EB /* LaunchScreen.xib in Resources */,
-				9B081B751B0A4E3A004F52EB /* Images.xcassets in Resources */,
-				9B081B9C1B0AA230004F52EB /* Screens in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +433,7 @@
 				9B081B891B0A4E3A004F52EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B081B8A1B0A4E3A004F52EB /* Build configuration list for PBXNativeTarget "RememoriumTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +442,7 @@
 				9B081B8C1B0A4E3A004F52EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

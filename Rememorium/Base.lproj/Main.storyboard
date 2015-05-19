@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rig-Co-BPl">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap1.png" highlightedImage="Bitmap1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rig-Co-BPl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e51-TD-xjm">
@@ -50,22 +50,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kif-zG-8tO">
-                                <rect key="frame" x="5" y="518" width="52" height="42"/>
+                                <rect key="frame" x="7" y="518" width="52" height="42"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPw-SX-YCN">
+                                <rect key="frame" x="7" y="73" width="131" height="51"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="y1J-lv-p4X" kind="presentation" id="Tlk-fT-1tA"/>
+                                    <segue destination="y1J-lv-p4X" kind="show" id="6Da-zu-Tvp"/>
                                 </connections>
-                            </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-OA-A0h">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPw-SX-YCN">
-                                <rect key="frame" x="21" y="86" width="96" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgj-AU-afG">
                                 <rect key="frame" x="128" y="9" width="66" height="43"/>
@@ -73,9 +70,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FSL-MY-ogm" kind="presentation" id="Crt-OY-zGW"/>
+                                    <segue destination="FSL-MY-ogm" kind="presentation" id="OQK-XI-vkF"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap2.png" highlightedImage="Bitmap2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-OA-A0h">
+                                <rect key="frame" x="1" y="0.0" width="320" height="568"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jAI-0H-LNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-341" y="324"/>
+            <point key="canvasLocation" x="-329" y="324"/>
         </scene>
         <!--Record memory -->
         <scene sceneID="pf0-fn-DJZ">
@@ -97,8 +97,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap4.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLv-v7-9RV">
-                                <rect key="frame" x="0.0" y="-15" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap4.png" highlightedImage="Bitmap4.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLv-v7-9RV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wm3-cj-jj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-325" y="984"/>
+            <point key="canvasLocation" x="-329" y="1026"/>
         </scene>
         <!--Memory-->
         <scene sceneID="Ue4-0E-dNu">
@@ -121,7 +121,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-KI-A7d">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bza-zJ-MW0">
+                                <rect key="frame" x="16" y="518" width="64" height="42"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VKc-EV-TEk" kind="presentation" id="u2Y-MA-xuF"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap3.png" highlightedImage="Bitmap3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-KI-A7d">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
@@ -131,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wj3-Q5-slX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85" y="332"/>
+            <point key="canvasLocation" x="98" y="324"/>
         </scene>
     </scenes>
     <resources>
@@ -140,4 +149,7 @@
         <image name="Bitmap3.png" width="320" height="568"/>
         <image name="Bitmap4.png" width="320" height="568"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="pHG-bz-dho"/>
+    </inferredMetricsTieBreakers>
 </document>
