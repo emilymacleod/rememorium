@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap1.png" highlightedImage="Bitmap1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rig-Co-BPl">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap1.png" translatesAutoresizingMaskIntoConstraints="NO" id="sgw-Tt-gG6">
+                                <rect key="frame" x="-160" y="-254" width="640" height="1075"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e51-TD-xjm">
                                 <rect key="frame" x="42" y="459" width="233" height="30"/>
@@ -49,6 +49,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap2.png" highlightedImage="Bitmap2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-OA-A0h">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kif-zG-8tO">
                                 <rect key="frame" x="7" y="518" width="52" height="42"/>
                                 <state key="normal">
@@ -73,9 +76,6 @@
                                     <segue destination="FSL-MY-ogm" kind="presentation" id="OQK-XI-vkF"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap2.png" highlightedImage="Bitmap2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bfq-OA-A0h">
-                                <rect key="frame" x="1" y="0.0" width="320" height="568"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -100,6 +100,15 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap4.png" highlightedImage="Bitmap4.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLv-v7-9RV">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8d-iV-ZYK">
+                                <rect key="frame" x="6" y="520" width="62" height="40"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VKc-EV-TEk" kind="presentation" id="uSB-jw-Cd6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -121,6 +130,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap3.png" highlightedImage="Bitmap3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-KI-A7d">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bza-zJ-MW0">
                                 <rect key="frame" x="16" y="518" width="64" height="42"/>
                                 <state key="normal">
@@ -130,9 +142,6 @@
                                     <segue destination="VKc-EV-TEk" kind="presentation" id="u2Y-MA-xuF"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bitmap3.png" highlightedImage="Bitmap3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-KI-A7d">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
